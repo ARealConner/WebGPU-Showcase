@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <title>WebGPU Showcase</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>WebGPU Showcase</h1>
-<ul>
-    <li><a href="https://arealconner.github.io/23FA-IMGD4099-Assignment1/">Assignment 1</a></li>
-<!--    <li><a href="https://[your-username].github.io/webgpu-assignment2/">Assignment 2</a></li>-->
-</ul>
+<div class="container">
+    <header>
+        <h1>WebGPU Showcase</h1>
+        <button id="themeToggle">Dark Mode</button>
+    </header>
+    <ul>
+        <li><a href="https://arealconner.github.io/23FA-IMGD4099-Assignment1/">Assignment 1</a></li>
+        <!-- <li><a href="https://[your-username].github.io/webgpu-assignment2/">Assignment 2</a></li> -->
+    </ul>
+</div>
+<div class="assignment-preview">
+    <h2>Assignment 1: Live Coding</h2>
+    <p>For this project I...</p>
+    <div class="iframe-wrapper">
+        <iframe src="https://arealconner.github.io/23FA-IMGD4099-Assignment1/" class="assignment-iframe"></iframe>
+        <button class="fullscreen-btn" onclick="openFullscreen('https://arealconner.github.io/23FA-IMGD4099-Assignment1/')">⛶</button>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
