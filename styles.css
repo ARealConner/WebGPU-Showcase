@@ -83,8 +83,8 @@ button {
     display: block;
     opacity: 0.6;
     transition: opacity 0.3s;
-    transform: scale(1.02);
-    transform-origin: top left;
+    /*transform: scale(1.02);*/
+    /*transform-origin: top left;*/
 }
 
 .iframe-wrapper:hover .assignment-iframe {
